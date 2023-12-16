@@ -22,12 +22,12 @@ export default {
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
       },
-      {
-        nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
-        titulo: 'Introducción',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'introduccion',
+      //   icono: 'fas fa-info-circle',
+      //   titulo: 'Introducción',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'tema1',
         numero: '1',
@@ -56,28 +56,28 @@ export default {
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'glosario',
-        icono: 'fas fa-sort-alpha-down',
-        titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Síntesis',
+      //   nombreRuta: 'sintesis',
+      //   desarrolloContenidos: true,
+      // },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
+      // {
+      //   nombreRuta: 'glosario',
+      //   icono: 'fas fa-sort-alpha-down',
+      //   titulo: 'Glosario',
+      // },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',

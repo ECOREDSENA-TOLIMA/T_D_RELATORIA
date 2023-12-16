@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 10%
     right: 30%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 80%
+    right: 70%
 
 
 @keyframes float1
@@ -17,3 +22,23 @@
 
   100%
     transform: translateY(0px)
+
+
+.tarjeta.color-primario,.cajon.color-primario
+  background-color: lighten($color-primario, 35%)
+
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: $color-adicional-1
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+  i
+    color: $white
+
+
+.BGIMG01
+  border-radius: 15px
+  background-image: url("../assets/curso/temas/fondo-color.svg")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center  
