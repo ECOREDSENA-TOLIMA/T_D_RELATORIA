@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Relatoría',
+    descripcionCurso:
+      'Una relatoría es un resumen objetivo y sistemático de un evento, discurso o texto. Describe los puntos clave, argumentos y conclusiones de manera concisa. Se enfoca en capturar la esencia de la información, facilitando la comprensión sin añadir interpretaciones personales. <br>En este documento se indican: elementos que deben componer una relatoria, los pasos y las recomendaciones que se deben tener en cuenta para realizarla. Ademas se desarrolla un breve ejemplo para dar más claridad sobre la temática.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -11,6 +12,10 @@ export default {
       },
       {
         clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
@@ -31,28 +36,41 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Relatoría',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Definición',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Elementos que componen una relatoría',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Pasos para elaborar un árbol de problemas',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Recomendaciones para desarrollar una relatoría',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Herramientas digitales para la elaboración de la relatoría',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Ejemplo de una relatoría',
+            hash: 't_1_6',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -85,6 +103,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/pdf_relatoria.pdf',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -95,34 +118,20 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
-    },
-  ],
-  glosario: [
-    {
-      termino: '',
-      significado: '',
-    },
-    {
-      termino: '<em></em>',
-      significado: '',
-    },
-  ],
+  complementario: [],
+  glosario: [],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Universidad Sergio Arboleda. (2014). <em>La Relatoría.</em> Departamento de gramática, lectura y escritura académica. [en línea]. ',
+      link:
+        'https://www.usergioarboleda.edu.co/wp-content/uploads/2016/01/guia-la-relatoria.pdf',
+    },
+    {
+      referencia:
+        'Salazar, A. Barreto, J. (2017). <em>Relatoría: Características y principales diferencias con otros textos académicos.</em> Centro de lectura y escritura.',
+      link:
+        'https://celee.uao.edu.co/relatoria-caracteristicas-principales-diferencias-otros-textos-academicos/',
     },
   ],
   creditos: [
